@@ -18,7 +18,7 @@ setup(
     name='timeout.stuff',
     version=__version__, author=__author__,
     author_email='seemethere101@gmail.com',
-    url='https://github.com/seemethere/timeout.of',
+    url='https://github.com/seemethere/timeout.stuff',
     py_modules=['timeout'],
     description=description,
     long_description=description,

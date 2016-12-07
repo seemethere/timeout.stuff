@@ -1,3 +1,4 @@
+"""Check us out @ https://github.com/seemethere/timeout.stuff"""
 from contextlib import contextmanager
 from functools import partial
 from datetime import datetime

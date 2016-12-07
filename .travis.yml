@@ -4,8 +4,6 @@ python:
   - '3.5'
 install:
   - python setup.py install
-  - pip install flake8
-before_script: flake8 timeout.py test_timeout.py
 script: python setup.py test
 deploy:
   provider: pypi

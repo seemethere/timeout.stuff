@@ -11,8 +11,17 @@ to snuff it doesn't reach a certain *time* limit
 
 # Installation
 
+
+## General use:
 ```shell
 pip install timeout.stuff
+```
+
+## Development:
+1. Fork the repo and clone your fork
+2. Run in the base repo:
+```shell
+python setup.py develop && pip install -r requirements-test.txt
 ```
 
 # Features
@@ -35,6 +44,8 @@ with timeout.of(10):
 ```
 
 ### Use it as a wrapper
+Wrap functions that take a long time to do stuff and make sure they timeout
+correctly
 ```python
 import timeout
 
@@ -50,4 +61,5 @@ some_complex_stuff()
 # Contributing
 1. Fork the repo
 2. Commit changes to your Fork
-3. Submit those changes!
+3. Run `python setup.py test` and make sure those all pass
+3. Submit those changes as a Pull Request!

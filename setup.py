@@ -26,5 +26,5 @@ setup(
     classifiers=timeout_classifiers,
     install_requires=open('requirements.txt', 'r').read().splitlines(),
     setup_requires=['pytest-runner'],
-    tests_requires=['pytest']
+    tests_requires=['pytest', 'pytest-flake8']
 )

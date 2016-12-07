@@ -15,7 +15,7 @@ timeout_classifiers = [
 description = 'A small and simple library to timeout functions'
 
 setup(
-    name='retry.it',
+    name='timeout.stuff',
     version=__version__, author=__author__,
     author_email='seemethere101@gmail.com',
     url='https://github.com/seemethere/timeout.of',
